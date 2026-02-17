@@ -11,9 +11,7 @@ A 3D Portal-liked game built with WebGL.
 
 ## Demo
 
-<video controls width="100%">
-  <source src="/video/web-portal-game_2025-10-06.mp4" type="video/mp4" />
-</video>
+<iframe width="100%" style={{aspectRatio: '16/9'}} src="https://www.youtube.com/embed/PyYck98zQkU" title="Web Portal Game Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 ## About
 
