@@ -1,0 +1,242 @@
+{
+  "portfolio.home.title": {
+    "message": "Selected work"
+  },
+  "portfolio.home.headline.first": {
+    "message": "Design, develop,"
+  },
+  "portfolio.home.headline.second": {
+    "message": "and make things."
+  },
+  "portfolio.home.introduction": {
+    "message": "I bring ideas to life on my own, and work with teams to take them further."
+  },
+  "portfolio.home.about": {
+    "message": "Curiosity takes me from games and interactive experiences to paper models. This collection brings together independent projects and work made with teams."
+  },
+  "portfolio.home.wolfAlt": {
+    "message": "Little Bad Wolf sitting on a tree stump in a forest"
+  },
+  "portfolio.home.domains": {
+    "message": "Explore creative fields"
+  },
+  "portfolio.work.explore": {
+    "message": "Explore work"
+  },
+  "portfolio.home.meet": {
+    "message": "Meet the creator"
+  },
+  "portfolio.about.title": {
+    "message": "About"
+  },
+  "portfolio.about.eyebrow": {
+    "message": "About the creator"
+  },
+  "portfolio.about.headline.first": {
+    "message": "Turn curiosity"
+  },
+  "portfolio.about.headline.second": {
+    "message": "into something real."
+  },
+  "portfolio.about.portraitAlt": {
+    "message": "Portrait of {name}"
+  },
+  "portfolio.about.fields": {
+    "message": "Explore work"
+  },
+  "portfolio.nav.home": {
+    "message": "{name} home"
+  },
+  "portfolio.nav.main": {
+    "message": "Main navigation"
+  },
+  "portfolio.nav.languages": {
+    "message": "Choose language"
+  },
+  "portfolio.footer.message": {
+    "message": "Always making. Open to new collaborations."
+  },
+  "portfolio.category.games.title": {
+    "message": "Games"
+  },
+  "portfolio.category.games.short": {
+    "message": "Games"
+  },
+  "portfolio.category.games.description": {
+    "message": "From games I make independently to worlds built together with a team."
+  },
+  "portfolio.category.games.role": {
+    "message": "Game prototype"
+  },
+  "portfolio.category.games.summary": {
+    "message": "Independent projects & team work"
+  },
+  "portfolio.category.interaction.title": {
+    "message": "Interaction & experiments"
+  },
+  "portfolio.category.interaction.short": {
+    "message": "Interaction"
+  },
+  "portfolio.category.interaction.description": {
+    "message": "Turning sound, images and imagination into experiences you can explore."
+  },
+  "portfolio.category.interaction.role": {
+    "message": "Interactive project"
+  },
+  "portfolio.category.interaction.summary": {
+    "message": "Sound, images & interactive experiences"
+  },
+  "portfolio.category.art.title": {
+    "message": "Paper art & craft"
+  },
+  "portfolio.category.art.short": {
+    "message": "Paper & craft"
+  },
+  "portfolio.category.art.description": {
+    "message": "Starting with a sheet of paper, folding and assembling ideas into three dimensions."
+  },
+  "portfolio.category.art.role": {
+    "message": "Paper model design"
+  },
+  "portfolio.category.art.summary": {
+    "message": "Ideas taking shape in paper"
+  },
+  "portfolio.group.independent": {
+    "message": "Independent projects"
+  },
+  "portfolio.group.team": {
+    "message": "Team projects"
+  },
+  "portfolio.group.browser": {
+    "message": "Browser games"
+  },
+  "portfolio.group.visual": {
+    "message": "Images & spaces"
+  },
+  "portfolio.group.audio": {
+    "message": "Sound & music"
+  },
+  "portfolio.group.generated": {
+    "message": "Generative exploration"
+  },
+  "portfolio.group.tools": {
+    "message": "Small tools"
+  },
+  "portfolio.group.paper": {
+    "message": "Paper models"
+  },
+  "portfolio.collection.label": {
+    "message": "{category} collection"
+  },
+  "portfolio.collection.filters": {
+    "message": "Project categories"
+  },
+  "portfolio.collection.all": {
+    "message": "All"
+  },
+  "portfolio.collection.searchLabel": {
+    "message": "Search {category} projects"
+  },
+  "portfolio.collection.searchPlaceholder": {
+    "message": "Search projects"
+  },
+  "portfolio.collection.count.one": {
+    "message": "{count} project"
+  },
+  "portfolio.collection.count.other": {
+    "message": "{count} projects"
+  },
+  "portfolio.collection.includesFeatured": {
+    "message": ", including the featured project above"
+  },
+  "portfolio.collection.emptyTitle": {
+    "message": "No matching projects"
+  },
+  "portfolio.collection.emptyDescription": {
+    "message": "Try another search, or return to the full collection."
+  },
+  "portfolio.collection.reset": {
+    "message": "Show all projects"
+  },
+  "portfolio.work.open": {
+    "message": "View project"
+  },
+  "portfolio.gallery.title": {
+    "message": "Project gallery"
+  },
+  "portfolio.gallery.enlargeHint": {
+    "message": "Select to enlarge"
+  },
+  "portfolio.gallery.enlarge": {
+    "message": "Enlarge: {alt}"
+  },
+  "portfolio.gallery.close": {
+    "message": "Close"
+  },
+  "portfolio.gallery.previous": {
+    "message": "Previous"
+  },
+  "portfolio.gallery.next": {
+    "message": "Next"
+  },
+  "portfolio.video.assembly": {
+    "message": "Assembly tutorial"
+  },
+  "portfolio.video.demo": {
+    "message": "Project demonstration"
+  },
+  "portfolio.video.watch": {
+    "message": "Watch video"
+  },
+  "portfolio.sheets.title": {
+    "message": "Choose a pattern"
+  },
+  "portfolio.sheets.count.one": {
+    "message": "{count} pattern sheet"
+  },
+  "portfolio.sheets.count.other": {
+    "message": "{count} pattern sheets"
+  },
+  "portfolio.sheets.description": {
+    "message": "Download an original pattern, print it, and start making."
+  },
+  "portfolio.sheets.preview": {
+    "message": "Preview of the {label} pattern"
+  },
+  "portfolio.sheets.download": {
+    "message": "Download pattern"
+  },
+  "portfolio.work.coverAlt": {
+    "message": "{title} project view"
+  },
+  "portfolio.work.back": {
+    "message": "Back to {category}"
+  },
+  "portfolio.work.year": {
+    "message": "Year"
+  },
+  "portfolio.work.role": {
+    "message": "Role"
+  },
+  "portfolio.work.platforms": {
+    "message": "Platforms"
+  },
+  "portfolio.work.choosePattern": {
+    "message": "Choose a pattern"
+  },
+  "portfolio.work.sources": {
+    "message": "Image sources:"
+  },
+  "portfolio.work.assemblyHeading": {
+    "message": "Assembly video"
+  },
+  "portfolio.work.videoHeading": {
+    "message": "See it in action"
+  },
+  "portfolio.work.related": {
+    "message": "Keep exploring"
+  },
+  "portfolio.work.viewAll": {
+    "message": "Explore all {category}"
+  }
+}

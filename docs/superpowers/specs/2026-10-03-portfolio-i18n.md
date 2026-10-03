@@ -1,0 +1,11 @@
+# Portfolio bilingual architecture
+
+The user requested the brand `Farl. Lee`, Traditional Chinese and English, and a professional framework that stays easy to maintain. Preserve the existing wolf-led design and compact category entrances.
+
+Use Docusaurus native locale builds and SEO. Traditional Chinese (`zh-Hant`) remains at `/`; English (`en`) uses `/en/`. Site identity and locale definitions live in one shared settings file. Interface messages use native `translate()` and typed keys from Chrome-format `code.json` dictionaries. Header language links display language names, preserve the current route, query and hash, and cause a full navigation between native locale applications.
+
+Canonical works remain under `docs/`, with all categories, order, dates, platforms, assets, external targets and related-work relationships. English Markdown lives in `i18n/en/docusaurus-plugin-content-docs/current/`, with matching document IDs. It translates titles, summaries, body and textual metadata only. The catalog merges label maps keyed by explicit permanent item IDs (independent of filenames and URLs) and rejects structural overrides, unknown identities, missing translations and orphan documents. Shared media never requires a translated copy. Resolve both document identities with the pinned native docs plugin and reject absent as well as conflicting routing overrides.
+
+All 54 works receive English translations, including long personal stories and downloadable sheet variants. Catalog output keeps locale-independent relative paths; Docusaurus Link adds the active locale base URL. Root-absolute static assets remain shared. Reset filters with a localized path. Use natural translated phrases instead of concatenating fragments.
+
+Verification must cover shared-asset invariance, translated labels, identity safety, missing translations, dictionary key/placeholder parity, all locale builds and links. Browser checks must exercise both home layouts, page/query-preserving switches, an English project gallery, paper downloads, English empty state and 320px overflow. Built output must contain correct html lang, canonical and alternate links. Preview serves the complete production build so both languages work at one URL.

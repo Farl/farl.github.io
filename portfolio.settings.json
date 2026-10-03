@@ -1,0 +1,17 @@
+{
+  "name": "Farl. Lee",
+  "defaultLocale": "zh-Hant",
+  "locales": {
+    "zh-Hant": {
+      "label": "正體中文",
+      "htmlLang": "zh-Hant",
+      "direction": "ltr"
+    },
+    "en": {
+      "label": "English",
+      "htmlLang": "en",
+      "direction": "ltr"
+    }
+  },
+  "socialImage": "/img/works/social-card.png"
+}
