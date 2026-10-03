@@ -1,63 +1,28 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
+import {categories, site} from '../portfolio/config';
+import {usePortfolio} from '../portfolio/usePortfolio';
+import {copy} from '../portfolio/copy';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Portfolio
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog"
-            style={{marginLeft: '1rem'}}>
-            Blog
-          </Link>
+export default function Home() {
+  const projects = usePortfolio();
+  return <Layout title={copy('portfolio.home.title')} description={site.introduction}>
+    <main className="home-page">
+      <section className="home-hero">
+        <picture><source media="(max-width: 650px)" srcSet={site.heroMobile}/>
+          <img className="wolf-background" src={site.hero} alt={copy('portfolio.home.wolfAlt')} fetchPriority="high"/>
+        </picture>
+        <div className="home-inner"><div className="home-copy"><h1>{site.headline.map(line => <span key={line}>{line}</span>)}</h1><p>{site.introduction}</p></div>
+          <nav className="domain-entrances" aria-label={copy('portfolio.home.domains')}>{categories.map(category => {
+            const cover = projects.find(project => project.id === category.entranceProject)?.cover;
+            return <Link key={category.id} className={`domain-entrance entrance-${category.id}`} to={category.path}>
+              {cover && <img src={cover} alt=""/>}<div><h2>{category.shortTitle}</h2><p>{category.entranceSummary}</p><span>{copy('portfolio.work.explore')}</span></div>
+            </Link>;
+          })}</nav>
         </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title="Home"
-      description={siteConfig.tagline}>
-      <HomepageHeader />
-      <main>
-        <section style={{padding: '2rem 0'}}>
-          <div className="container">
-            <div className="row">
-              <div className="col col--8 col--offset-2">
-                <Heading as="h2" style={{textAlign: 'center'}}>
-                  About Me
-                </Heading>
-                <p style={{textAlign: 'center', fontSize: '1.2rem'}}>
-                  Hi, I'm Farl Lee. Welcome to my personal website.
-                  Here you can find my portfolio and blog posts.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-    </Layout>
-  );
+      </section>
+      <section className="home-about page-shell"><p>{site.about}</p><Link className="text-link" to="/about">{copy('portfolio.home.meet')}</Link></section>
+    </main>
+  </Layout>;
 }

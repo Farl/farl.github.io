@@ -1,0 +1,242 @@
+{
+  "portfolio.home.title": {
+    "message": "作品與創作"
+  },
+  "portfolio.home.headline.first": {
+    "message": "設計、開發，"
+  },
+  "portfolio.home.headline.second": {
+    "message": "也動手創作。"
+  },
+  "portfolio.home.introduction": {
+    "message": "能獨立把想法做成作品，也能與團隊一起完成更大的挑戰。"
+  },
+  "portfolio.home.about": {
+    "message": "從遊戲、互動體驗到紙模型，好奇心一直帶著我走向不同的創作領域。這裡收錄獨立完成的作品，也記錄與團隊合作的經驗。"
+  },
+  "portfolio.home.wolfAlt": {
+    "message": "小壞狼坐在森林中的樹樁上"
+  },
+  "portfolio.home.domains": {
+    "message": "探索創作領域"
+  },
+  "portfolio.work.explore": {
+    "message": "探索作品"
+  },
+  "portfolio.home.meet": {
+    "message": "認識創作者"
+  },
+  "portfolio.about.title": {
+    "message": "關於"
+  },
+  "portfolio.about.eyebrow": {
+    "message": "關於創作者"
+  },
+  "portfolio.about.headline.first": {
+    "message": "把好奇心，"
+  },
+  "portfolio.about.headline.second": {
+    "message": "做成作品。"
+  },
+  "portfolio.about.portraitAlt": {
+    "message": "{name} 的肖像"
+  },
+  "portfolio.about.fields": {
+    "message": "探索作品"
+  },
+  "portfolio.nav.home": {
+    "message": "{name} 首頁"
+  },
+  "portfolio.nav.main": {
+    "message": "主要導覽"
+  },
+  "portfolio.nav.languages": {
+    "message": "切換語言"
+  },
+  "portfolio.footer.message": {
+    "message": "持續創作，也期待新的合作。"
+  },
+  "portfolio.category.games.title": {
+    "message": "遊戲"
+  },
+  "portfolio.category.games.short": {
+    "message": "遊戲"
+  },
+  "portfolio.category.games.description": {
+    "message": "從獨立製作的遊戲，到與團隊一起完成的世界。"
+  },
+  "portfolio.category.games.role": {
+    "message": "遊戲原型"
+  },
+  "portfolio.category.games.summary": {
+    "message": "獨立創作與團隊合作"
+  },
+  "portfolio.category.interaction.title": {
+    "message": "互動與實驗"
+  },
+  "portfolio.category.interaction.short": {
+    "message": "互動與實驗"
+  },
+  "portfolio.category.interaction.description": {
+    "message": "讓聲音、影像與想像，成為可以親手體驗的作品。"
+  },
+  "portfolio.category.interaction.role": {
+    "message": "互動作品"
+  },
+  "portfolio.category.interaction.summary": {
+    "message": "聲音、影像與互動體驗"
+  },
+  "portfolio.category.art.title": {
+    "message": "紙藝與手作"
+  },
+  "portfolio.category.art.short": {
+    "message": "紙藝與手作"
+  },
+  "portfolio.category.art.description": {
+    "message": "從一張紙開始，透過折疊與組裝，讓平面的想像站起來。"
+  },
+  "portfolio.category.art.role": {
+    "message": "紙模型設計"
+  },
+  "portfolio.category.art.summary": {
+    "message": "從平面到立體的想像"
+  },
+  "portfolio.group.independent": {
+    "message": "獨立作品"
+  },
+  "portfolio.group.team": {
+    "message": "團隊作品"
+  },
+  "portfolio.group.browser": {
+    "message": "網頁遊戲"
+  },
+  "portfolio.group.visual": {
+    "message": "影像與空間"
+  },
+  "portfolio.group.audio": {
+    "message": "聲音與音樂"
+  },
+  "portfolio.group.generated": {
+    "message": "生成式探索"
+  },
+  "portfolio.group.tools": {
+    "message": "小工具"
+  },
+  "portfolio.group.paper": {
+    "message": "紙模型"
+  },
+  "portfolio.collection.label": {
+    "message": "{category}作品集"
+  },
+  "portfolio.collection.filters": {
+    "message": "作品類別"
+  },
+  "portfolio.collection.all": {
+    "message": "全部"
+  },
+  "portfolio.collection.searchLabel": {
+    "message": "搜尋{category}作品"
+  },
+  "portfolio.collection.searchPlaceholder": {
+    "message": "搜尋作品"
+  },
+  "portfolio.collection.count.one": {
+    "message": "{count} 件作品"
+  },
+  "portfolio.collection.count.other": {
+    "message": "{count} 件作品"
+  },
+  "portfolio.collection.includesFeatured": {
+    "message": "，包含上方精選"
+  },
+  "portfolio.collection.emptyTitle": {
+    "message": "沒有符合的作品"
+  },
+  "portfolio.collection.emptyDescription": {
+    "message": "試試其他關鍵字，或回到完整作品集。"
+  },
+  "portfolio.collection.reset": {
+    "message": "顯示全部作品"
+  },
+  "portfolio.work.open": {
+    "message": "進入作品"
+  },
+  "portfolio.gallery.title": {
+    "message": "作品畫面"
+  },
+  "portfolio.gallery.enlargeHint": {
+    "message": "點選放大"
+  },
+  "portfolio.gallery.enlarge": {
+    "message": "放大：{alt}"
+  },
+  "portfolio.gallery.close": {
+    "message": "關閉"
+  },
+  "portfolio.gallery.previous": {
+    "message": "上一張"
+  },
+  "portfolio.gallery.next": {
+    "message": "下一張"
+  },
+  "portfolio.video.assembly": {
+    "message": "組裝教學"
+  },
+  "portfolio.video.demo": {
+    "message": "作品示範"
+  },
+  "portfolio.video.watch": {
+    "message": "觀看影片"
+  },
+  "portfolio.sheets.title": {
+    "message": "選擇圖紙"
+  },
+  "portfolio.sheets.count.one": {
+    "message": "{count} 張圖紙"
+  },
+  "portfolio.sheets.count.other": {
+    "message": "{count} 張圖紙"
+  },
+  "portfolio.sheets.description": {
+    "message": "下載原始圖檔，列印後就能開始製作。"
+  },
+  "portfolio.sheets.preview": {
+    "message": "{label} 圖紙預覽"
+  },
+  "portfolio.sheets.download": {
+    "message": "下載圖紙"
+  },
+  "portfolio.work.coverAlt": {
+    "message": "{title} 作品畫面"
+  },
+  "portfolio.work.back": {
+    "message": "回到{category}"
+  },
+  "portfolio.work.year": {
+    "message": "年份"
+  },
+  "portfolio.work.role": {
+    "message": "參與角色"
+  },
+  "portfolio.work.platforms": {
+    "message": "平台"
+  },
+  "portfolio.work.choosePattern": {
+    "message": "挑選圖紙"
+  },
+  "portfolio.work.sources": {
+    "message": "畫面來源："
+  },
+  "portfolio.work.assemblyHeading": {
+    "message": "組裝教學影片"
+  },
+  "portfolio.work.videoHeading": {
+    "message": "看看作品如何運作"
+  },
+  "portfolio.work.related": {
+    "message": "接著探索"
+  },
+  "portfolio.work.viewAll": {
+    "message": "查看全部{category}"
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" preserveAspectRatio="none">
+  <!-- Broad ends and unequal shoulders avoid a leaf/ellipse silhouette. Blur softens the contour only. -->
+  <defs><filter id="edge" x="-15%" y="-30%" width="130%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+  <path fill="white" filter="url(#edge)" d="M28 35 C85 25 153 32 225 23 C290 15 340 17 371 32 C385 42 385 63 379 91 C375 114 366 131 345 133 C275 135 215 127 153 138 C99 147 55 142 31 127 C14 116 18 95 18 75 C17 58 14 42 28 35Z"/>
+</svg>

@@ -1,11 +1,12 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import settings from './portfolio.settings.json';
 
 const config: Config = {
-  title: 'Farl Lee',
-  tagline: 'Everything that can make a good game is what we want to learn about it.',
-  favicon: 'img/favicon.ico',
+  title: settings.name,
+  tagline: '設計、開發，也動手創作。',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
@@ -21,9 +22,12 @@ const config: Config = {
   onBrokenLinks: 'throw',
 
   i18n: {
-    defaultLocale: 'zh-Hant',
-    locales: ['zh-Hant'],
+    defaultLocale: settings.defaultLocale,
+    locales: Object.keys(settings.locales),
+    localeConfigs: settings.locales as NonNullable<Config['i18n']>['localeConfigs'],
   },
+
+  plugins: ['./plugins/portfolio/index.cjs'],
 
   presets: [
     [
@@ -31,19 +35,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          exclude: ['superpowers/**'],
           editUrl: 'https://github.com/Farl/farl.github.io/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: 'https://github.com/Farl/farl.github.io/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        pages: {exclude: ['**/markdown-page.md']},
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -52,54 +48,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
-    navbar: {
-      title: 'Farl Lee',
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'portfolioSidebar',
-          position: 'left',
-          label: 'Portfolio',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Farl',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Content',
-          items: [
-            {
-              label: 'Portfolio',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-          ],
-        },
-        {
-          title: 'Links',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Farl',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Farl Lee. Built with Docusaurus.`,
-    },
+    image: settings.socialImage,
+    colorMode: {defaultMode: 'dark', disableSwitch: true, respectPrefersColorScheme: false},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
