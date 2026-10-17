@@ -20,7 +20,7 @@ portfolio:
   gallery:
     - id: editor
       src: /img/works/holographic-material-demo-editor.webp
-      alt: 對照台畫面：左側 WebGL 與 CSS 卡片並排，右側是圖層與七龍珠箔的參數面板
+      alt: 對照台畫面：左側 WebGL 與 CSS 卡片並排，右側是圖層與彩虹層的參數面板
   videos: []
 ---
 ## 作品介紹 {#overview}
