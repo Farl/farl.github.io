@@ -13,7 +13,10 @@ portfolio:
   role: 獨立開發
   featured: false
   order: 2
-  links: []
+  links:
+    - id: demo
+      label: 體驗作品
+      url: 'https://holographic-material-demo.pages.dev/'
   gallery:
     - id: editor
       src: /img/works/holographic-material-demo-editor.webp

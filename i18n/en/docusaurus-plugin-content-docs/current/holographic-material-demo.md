@@ -5,6 +5,8 @@ hide_title: true
 hide_table_of_contents: true
 portfolio:
   role: Independent creator
+  links:
+    demo: Try it
   gallery:
     editor: 'The comparison bench: WebGL and CSS cards side by side, with the layer and foil parameter panel on the right'
 ---
