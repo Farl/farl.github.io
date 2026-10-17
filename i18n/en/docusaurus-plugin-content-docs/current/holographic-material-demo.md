@@ -8,7 +8,7 @@ portfolio:
   links:
     demo: Try it
   gallery:
-    editor: 'The comparison bench: WebGL and CSS cards side by side, with the layer and foil parameter panel on the right'
+    editor: 'The comparison bench: WebGL and CSS cards side by side, with the layer and rainbow-layer parameter panel on the right'
 ---
 
 ## Overview {#overview}
