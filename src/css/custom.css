@@ -268,3 +268,11 @@ img {display: block; max-width: 100%;}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {scroll-behavior: auto !important; transition: none !important; animation: none !important;}
 }
+/* Markdown pages (src/pages/*.md) line up with the site header instead of Infima's fluid container. */
+.mdx-page main.container {max-width: var(--page-width); padding-inline: var(--gutter);}
+/* Single-app pages (e.g. /ninespin): icon + name header and a row of store screenshots. */
+.app-hero {display: flex; align-items: center; gap: 20px; margin-bottom: 24px;}
+.app-hero img {width: 96px; height: 96px; border-radius: 22%;}
+.app-hero h1 {margin: 0;}
+.app-shots {display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px;}
+.app-shots img {width: 100%; border-radius: 12px;}
