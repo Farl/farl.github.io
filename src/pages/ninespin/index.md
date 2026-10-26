@@ -12,8 +12,6 @@ hide_table_of_contents: true
   </div>
 </div>
 
-[English](pathname:///en/ninespin)
-
 點一下中間的珠子，周圍八顆珠子就會轉一圈，這是唯一的操作。九宮轉把被打亂的盤面交給你，一步一步轉回原位：色塊、數字、3×3 消除與連鎖六個世界，還有每日一題、限時衝刺、無盡連鎖與爬塔。免登入、免帳號，離線也能玩。
 
 <div className="app-shots">

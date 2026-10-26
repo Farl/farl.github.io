@@ -12,8 +12,6 @@ hide_table_of_contents: true
   </div>
 </div>
 
-[正體中文](pathname:///ninespin)
-
 Tap the center bead and the ring of eight beads around it turns. That's the only move. Ninespin hands you a scrambled board to put back in order, one turn at a time, across six worlds of colors, numbers, 3×3 matches and cascades, plus Daily, Rush, Zen and Ladder modes. No login, no account, plays offline.
 
 <div className="app-shots">
