@@ -6,8 +6,6 @@ hide_table_of_contents: true
 
 # 九宮轉 隱私權政策
 
-[English](pathname:///en/ninespin/privacy)
-
 生效日期：2026-10-26
 
 本政策說明 Farl Lee（以下稱「我」）開發的益智遊戲「九宮轉」（Ninespin，iOS、Android 與網頁版 ninespin.pages.dev）如何處理你的資料。

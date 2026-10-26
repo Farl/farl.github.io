@@ -6,8 +6,6 @@ hide_table_of_contents: true
 
 # Ninespin Privacy Policy
 
-[正體中文](pathname:///ninespin/privacy)
-
 Effective date: 2026-10-26
 
 This policy explains how Ninespin (九宮轉), a puzzle game by Farl Lee ("I", "me") for iOS, Android and the web (ninespin.pages.dev), handles your data.
