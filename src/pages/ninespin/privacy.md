@@ -1,6 +1,7 @@
 ---
 title: 九宮轉 隱私權政策
 description: Ninespin / 九宮轉 的隱私權政策
+hide_table_of_contents: true
 ---
 
 # 九宮轉 隱私權政策

@@ -1,6 +1,7 @@
 ---
 title: Ninespin Privacy Policy
 description: Privacy policy for Ninespin / 九宮轉
+hide_table_of_contents: true
 ---
 
 # Ninespin Privacy Policy
