@@ -1,5 +1,6 @@
 {
   "name": "Farl. Lee",
+  "personName": "Farl Lee",
   "defaultLocale": "zh-Hant",
   "locales": {
     "zh-Hant": {
@@ -13,5 +14,15 @@
       "direction": "ltr"
     }
   },
-  "socialImage": "/img/works/social-card.png"
+  "socialImage": "/img/works/social-card.png",
+  "contacts": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/farl-lee-b0620b55/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Farl"
+    }
+  ]
 }

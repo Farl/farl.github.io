@@ -8,10 +8,7 @@ export const site = {
   headline: [copy('portfolio.home.headline.first'), copy('portfolio.home.headline.second')],
   introduction: copy('portfolio.home.introduction'),
   about: copy('portfolio.home.about'),
-  contacts: [
-    {label: 'LinkedIn', url: 'https://www.linkedin.com/in/farl-lee-b0620b55/'},
-    {label: 'GitHub', url: 'https://github.com/Farl'},
-  ],
+  contacts: settings.contacts,
   relatedLimit: 3,
 };
 export const categories: Category[] = [

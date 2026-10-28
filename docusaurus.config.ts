@@ -3,6 +3,21 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import settings from './portfolio.settings.json';
 
+const siteUrl = 'https://farl.github.io';
+const baseUrl = '/';
+const homeUrl = `${siteUrl}${baseUrl}`;
+
+/** Schema.org data so search engines tie the site, its plain-text name and the owner's profiles together. */
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {'@type': 'WebSite', '@id': `${homeUrl}#website`, url: homeUrl, name: settings.name, alternateName: settings.personName,
+      author: {'@id': `${homeUrl}#person`}},
+    {'@type': 'Person', '@id': `${homeUrl}#person`, name: settings.personName, url: homeUrl,
+      sameAs: settings.contacts.map(contact => contact.url)},
+  ],
+};
+
 const config: Config = {
   title: settings.name,
   tagline: '設計、開發，也動手創作。',
@@ -12,8 +27,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://farl.github.io',
-  baseUrl: '/',
+  url: siteUrl,
+  baseUrl,
+
+  headTags: [{tagName: 'script', attributes: {type: 'application/ld+json'}, innerHTML: JSON.stringify(structuredData)}],
 
   organizationName: 'Farl',
   projectName: 'farl.github.io',
@@ -27,7 +44,7 @@ const config: Config = {
     localeConfigs: settings.locales as NonNullable<Config['i18n']>['localeConfigs'],
   },
 
-  plugins: ['./plugins/portfolio/index.cjs'],
+  plugins: ['./plugins/portfolio/index.cjs', './plugins/robots/index.cjs'],
 
   presets: [
     [
