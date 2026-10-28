@@ -1,5 +1,6 @@
 {
   "name": "Farl. Lee",
+  "personName": "Farl Lee",
   "defaultLocale": "zh-Hant",
   "locales": {
     "zh-Hant": {
@@ -18,6 +19,16 @@
     {
       "from": "/docs/room-atmosphere-2d",
       "to": "/docs/lightfall"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/farl-lee-b0620b55/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Farl"
     }
   ]
 }
