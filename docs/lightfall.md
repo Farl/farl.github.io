@@ -16,10 +16,10 @@ portfolio:
   links:
     - id: demo
       label: 體驗作品
-      url: 'https://farl.github.io/room-atmosphere-2d/'
+      url: 'https://farl.github.io/lightfall/'
     - id: source
       label: 原始碼
-      url: 'https://github.com/Farl/room-atmosphere-2d'
+      url: 'https://github.com/Farl/lightfall'
   gallery:
     - id: forest
       src: /img/works/lightfall-forest.webp

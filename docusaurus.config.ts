@@ -27,7 +27,11 @@ const config: Config = {
     localeConfigs: settings.locales as NonNullable<Config['i18n']>['localeConfigs'],
   },
 
-  plugins: ['./plugins/portfolio/index.cjs'],
+  plugins: [
+    './plugins/portfolio/index.cjs',
+    // Renamed works keep their old URLs working; each locale build gets its own copy.
+    ['@docusaurus/plugin-client-redirects', {redirects: settings.redirects}],
+  ],
 
   presets: [
     [
