@@ -13,5 +13,11 @@
       "direction": "ltr"
     }
   },
-  "socialImage": "/img/works/social-card.png"
+  "socialImage": "/img/works/social-card.png",
+  "redirects": [
+    {
+      "from": "/docs/room-atmosphere-2d",
+      "to": "/docs/lightfall"
+    }
+  ]
 }
